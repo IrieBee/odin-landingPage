@@ -1,1 +1,1 @@
-# odin-landingPage
+# Landing page for Odin project using flexbox.
