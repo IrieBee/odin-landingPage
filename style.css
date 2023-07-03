@@ -19,13 +19,18 @@ h3 {
     font-size: 24px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
 .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -51,13 +56,64 @@ h1 {
     gap: 24px;
 }
 
-.button {
-    /*background-color: #3882f6;*/
+.quote .container{
+    display: flex;
+    flex-direction:column;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.header p{
+    padding-bottom: 16px;
+}
+
+
+
+.sign1, .sign2 {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+
+}
+  
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5cqmax;
+    gap: 20px;
+    background-color: #e8effa;
+}
+
+.container .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .header img {
     width: 50%;
 }
+
+/* Not working
+.nicequote {
+    text-size: 36px;
+    font-style: light italic;
+}
+*/
+
 
 ul {
     list-style: none;
