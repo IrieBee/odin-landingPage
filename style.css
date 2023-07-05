@@ -5,14 +5,20 @@
 }
 
 body {
-    background-color: #c99180;
-    font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-family:  Verdana, sans-serif;
 }
 
 .navbar, .header, .footer{
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
 }
 
 h3 {
@@ -59,16 +65,20 @@ h1 {
 .quote .container{
     display: flex;
     flex-direction:column;
+    padding: 4em 8em;
+    line-height: 2em;
+    gap: 2em;
 }
 
-
-.quote {
-    background-color: #e5e7eb;
-}
 
 .author {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.quote .nicequote {
+    font-size: 36px;
+    font-style: light italic;
 }
 
 .header p{
@@ -83,39 +93,51 @@ h1 {
     color: #e5e7eb;
     font-size: 18px;
     border-radius: 10px;
-    border: none;
+}
 
+.sign1 {
+    border: none;
+}
+
+.sign2 {
+    border-color: #fff;
+    border-width: 2px;
 }
   
 .boxes .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 5cqmax;
-    gap: 20px;
-    background-color: #e8effa;
+    padding-top: 30px;
+    padding-bottom: 5em;
+    gap: 2em;
+    
 }
 
 .container .info {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2em;
+}
+
+.info .info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .header img {
     width: 50%;
 }
 
-.bottom {
-    background-color: #e8effa;
-}
 
 .bottom .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 2em;
-    margin: 4em;
+    margin-bottom: 3em;
+    margin-top: 3em;
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 10px;
@@ -124,22 +146,9 @@ h1 {
 
 .footer {
     text-align: center;
-    
-}
-
-
-/* Not working
-.sign2 {
-    border-color: #e5e7eb;
+    padding: 2em;
 
 }
-
-
-.nicequote {
-    text-size: 36px;
-    font-style: light italic;
-}
-*/
 
 
 ul {
