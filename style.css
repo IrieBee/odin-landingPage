@@ -107,7 +107,34 @@ h1 {
     width: 50%;
 }
 
+.bottom {
+    background-color: #e8effa;
+}
+
+.bottom .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    margin: 4em;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+
+}
+
+.footer {
+    text-align: center;
+    
+}
+
+
 /* Not working
+.sign2 {
+    border-color: #e5e7eb;
+
+}
+
+
 .nicequote {
     text-size: 36px;
     font-style: light italic;
